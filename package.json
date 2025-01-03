@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-multi-connect",
+  "version": "0.7.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "debug": "^2.6.3",
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "ava": "0.18.2",
+    "mongoose": "4.9.1"
+  },
+  "scripts": {
+    "test": "ava -v test/*.test.js",
+    "lint": "eslint --ignore-path .gitignore ./"
+  },
+  "author": "kozzztya",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/kozzztya/mongoose-multi-connect.git",
+    "type": "git"
+  }
+}
